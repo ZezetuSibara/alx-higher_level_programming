@@ -3,5 +3,5 @@
 
 
 def add(a, b):
-    """Computes the sum of a and b."nd return the value""
+    """Computes the sum of a and b."nd return the value"""
     return (a + b)
