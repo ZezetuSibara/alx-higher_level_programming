@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # 6-print_comb3.py
 
-"""Compute all possible different combinations of two digits in ascending order.
+"""Compute all possible combinations of two digits in ascending order.
 
     These digits must be different - 01 and 10 are considered identical.
     """
