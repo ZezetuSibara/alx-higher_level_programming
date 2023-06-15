@@ -10,18 +10,18 @@
 size_t print_listint(const listint_t *h)
 {
     const listint_t *current;
-    unsigned int nn; /* the nodes */
+    unsigned int n; /* the nodes */
 
     current = h;
-    nn = 0;
+    n = 0;
     while (current != NULL)
     {
-	printf("%i\n", current->nn);
+	printf("%i\n", current->n);
 	current = current->next;
-	nn++;
+	n++;
     }
 
-    return (nn);
+    return (n);
 }
 
 /**
