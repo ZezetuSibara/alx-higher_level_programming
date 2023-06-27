@@ -2,10 +2,9 @@
 #include <Python.h>
 
 /**
- * print_python_bytes - Prints bytes information
- *
- * @p: Python Object
- * Return: no return
+ * print_python_bytes - Bytes information are printed
+ * @p:The actual Python Object
+ * Return: nothing
  */
 void print_python_bytes(PyObject *p)
 {
@@ -46,10 +45,9 @@ void print_python_bytes(PyObject *p)
 }
 
 /**
- * print_python_float - Prints float information
- *
- * @p: Python Object
- * Return: no return
+ * print_python_float - Float information is printed
+ * @p: The actual Python Object
+ * Return: void
  */
 void print_python_float(PyObject *p)
 {
@@ -74,10 +72,9 @@ void print_python_float(PyObject *p)
 }
 
 /**
- * print_python_list - Prints list information
- *
- * @p: Python Object
- * Return: no return
+ * print_python_list - Used to Print the list information 
+ * @p: The actual Python Object
+ * Return: nothing
  */
 void print_python_list(PyObject *p)
 {
