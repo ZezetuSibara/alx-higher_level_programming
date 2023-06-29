@@ -2,8 +2,8 @@
 import math
 '''
 File_name: 103-magic_class.py
-Created: 30th of May, 2023
-Auth: David James Taiye (Official0mega)
+Created: 28th June, 2023
+Auth: Zezetu Sibara
 Size: undefined
 Project: 0x06-python-classes
 Status: submitted.

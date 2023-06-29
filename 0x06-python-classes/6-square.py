@@ -1,24 +1,24 @@
 #!/usr/bin/python3
-""" Square module """
+""" Square module is defined"""
 
 
 class Square:
-    """ Declares a square class """
+    """A square class is declared"""
 
     def __init__(self, size=0, position=(0, 0)) -> None:
         """
-        Intializes the attributes
+        The attributes are initialised
 
         Args:
-            size: size of square
-            position:  position of square
+            size: square size
+            position:  square position
         """
         self.size = size
         self.position = position
 
     @property
     def size(self):
-        """ Gets the private attribute to be used in class """
+        """Sets the private attribute to be used in class """
         return self.__size
 
     @size.setter
@@ -32,7 +32,7 @@ class Square:
 
     @property
     def position(self):
-        """ Gets the private attribute to be used in class """
+        """ Sets the private attribute to be used in class """
         return self.__position
 
     @position.setter
@@ -47,11 +47,11 @@ class Square:
             self.__position = value     # tuple contains 2 positive integers
 
     def area(self):
-        """ Computes area of a square """
+        """Area of a square is printed """
         return self.__size ** 2
 
     def my_print(self):
-        """ Prints in stdout the square with the character # """
+        """ Prints square with the character # """
         if self.__size == 0:
             print()
         else:

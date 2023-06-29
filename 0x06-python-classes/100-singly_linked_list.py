@@ -1,24 +1,24 @@
 #!/usr/bin/python3
-""" Node module """
+""" Node module defined """
 
 
 class Node:
-    """ Declares the Node class """
+    """ The Node class is declared """
 
     def __init__(self, data, next_node=None) -> None:
         """
-        Intializes the attributes of node class
+        The attributes of node class are initialised
 
         Args:
-            data: value of node
-            next_node:  address of next node
+            data: the node value
+            next_node:  next node address
         """
         self.data = data
         self.next_node = next_node
 
     @property
     def data(self):
-        """ Gets data of a linked list """
+        """ Attain data of a linked list """
         return self.__data
 
     @data.setter
@@ -30,7 +30,7 @@ class Node:
 
     @property
     def next_node(self):
-        """ Gets next_node of a linked list """
+        """ Acquires next_node of a linked list """
         return self.__next_node
 
     @next_node.setter
@@ -42,14 +42,14 @@ class Node:
 
 
 class SinglyLinkedList:
-    """ Declares a class of SinglyLinkedList """
+    """ A class of SinglyLinkedList is declared """
 
     def __init__(self) -> None:
-        """ Intializes the private attribute """
+        """ The private attribute is initialised"""
         self.__head = None
 
     def __str__(self) -> str:
-        """ returns string to be printed for SinglyLinkedList """
+        """ A string to be printed is returned """
         output = list()
         future = self.__head
 
@@ -61,10 +61,10 @@ class SinglyLinkedList:
 
     def sorted_insert(self, value):
         """
-        Sorts the node values
+        The node values are sorted
 
         Args:
-            value: value of node
+            value: node value
         """
         if self.__head is None:
             self.__head = Node(value)

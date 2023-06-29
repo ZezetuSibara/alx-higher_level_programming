@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-""" Square module """
+""" Square module defined"""
 
 
 class Square:
-    """ Declares a square class """
+    """ A square class is declared"""
 
     def __init__(self, size=0) -> None:
         """
-        Intializes class attributes
+        Class attributes are initialised
 
         Args:
-            size: size of square
+            size: square size
         """
 
         if type(size) is not int:
@@ -22,6 +22,6 @@ class Square:
 
     def area(self):
         """
-        Computes the area of a square
+        Computes the square area
         """
         return self.__size ** 2
