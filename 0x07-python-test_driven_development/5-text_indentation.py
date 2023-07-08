@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-    5-text_indentation Module
+    The 5-text_indentation Module
 """
 
 
 def text_indentation(text):
     """
-        Prints a text with 2 new lines after each of this characters
+        Computes a text with 2 new lines after each of these characters
         '.', '?', ':'
 
         Args:
-            text: inital string to work on
+            text: the inital string
     """
     if type(text) is not str:
         raise TypeError("text must be a string")

@@ -1,20 +1,19 @@
 #!/usr/bin/python3
 """
-    2-matrix_divided Module
+   The 2-matrix_divided Module
 """
 
 
 def matrix_divided(matrix, div):
     """
-        Divides all elements of a matrix
+        All elements of a matrix are divided
 
         Args:
-            matrix: intial 2D list
-            div: integer which is the divisor
+            matrix: the intial 2D list
+            div: the actual divising integer
 
         Returns:
-            New matrix containing the divided elements
-            rounded to 2 decimal places
+            New matrix with divided elements
     """
     prev_len = 0
     error_mess = "matrix must be a matrix (list of lists) of integers/floats"

@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-    4-print_square Module
+    The 4-print_square Module
 """
 
 
 def print_square(size):
     """
-        Prints a square with the character '#'
+        A square with the character '#' is printed
 
         Args:
-            size: size length of the square
+            size: size of the square
     """
     if type(size) is not int:
         raise TypeError("size must be an integer")

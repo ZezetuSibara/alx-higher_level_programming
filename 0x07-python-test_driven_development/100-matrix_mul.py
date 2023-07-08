@@ -1,19 +1,19 @@
 #!/usr/bin/python3
 """
-    100-matrix_mul Module
+    The 100-matrix_mul Module
 """
 
 
 def matrix_mul(m_a, m_b):
     """
-        Multiplies 2 matrices
+        The multiplies 2 matrices
 
         Args:
-            m_a: first matrix(2D List)
-            m_b: second matrix(2D List)
+            m_a: the first matrix in 2D List
+            m_b: the second matrix in 2D List
 
         Returns:
-            the product of two matrices
+            the product of the matrices
     """
 
     prev_len = 0

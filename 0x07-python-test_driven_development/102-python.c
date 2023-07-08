@@ -3,10 +3,9 @@
 #include <Python.h>
 
 /**
- * print_python_string - Prints string information
- * 
- * @p: Python Object
- * Return: no return
+ * print_python_string - information strings are printed
+ * @p: The actual Python Object
+ * Return: nothing
  */
 void print_python_string(PyObject *p)
 {

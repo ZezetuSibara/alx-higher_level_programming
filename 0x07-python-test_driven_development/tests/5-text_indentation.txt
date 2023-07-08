@@ -13,11 +13,11 @@ Importing ``text_indentation`` from the module
 
     >>> text_indentation = __import__('5-text_indentation').text_indentation
 
-Begin tests.
+Start tests.
 
 ::
 
-Test if text is not a string:
+Check if text is not a string:
 
     >>> text_indentation(20)
     Traceback (most recent call last):
@@ -31,7 +31,7 @@ Test if text is not a string:
 
 ::
 
-Test if function works well:
+See if function works well:
 
     >>> text_indentation("this is: a text. to test right ?")
     this is:
@@ -43,19 +43,19 @@ Test if function works well:
 
 ::
 
-checking for module docstring
+looking for module docstring
 ::
         >>> Mdocs = __import__("5-text_indentation").__doc__
         >>> len(Mdocs) > 5
         True
 
-checking function docstring for module
+looking function docstring for module
 ::
         >>> Fdocs = text_indentation.__doc__
         >>> len(Fdocs) > 5
         True
 
-checking regular implementation of text_indentation function
+looking regular implementation of text_indentation function
 ::
     >>> text_indentation("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
     ... Quonam modo? Utrum igitur tibi litteram videor an totas paginas commovere? \
@@ -124,7 +124,7 @@ checking regular implementation of text_indentation function
             <BLANKLINE>
             <BLANKLINE>
 
-    checking when wrong type is passed
+    testing when wrong type is passed
     ::
     >>> text_indentation(340)
     Traceback (most recent call last):
@@ -139,14 +139,14 @@ checking regular implementation of text_indentation function
     ...
     TypeError: text must be a string
 
-cheacking when None is passed
+testing when None is passed
 ::
     >>> text_indentation(None)
     Traceback (most recent call last):
     ...
     TypeError: text must be a string
 
-    checking when no arguement is passed
+    testing when no arguement is passed
 
 ::
     >>> text_indentation()
@@ -154,7 +154,7 @@ cheacking when None is passed
     ...
     TypeError: text_indentation() missing 1 required positional argument: 'text'
 
-checking when more than required arguement is passed
+looking when more than required arguement is passed
 ::
 
     >>> text_indentation("hello", "world")

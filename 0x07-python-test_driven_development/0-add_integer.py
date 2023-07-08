@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-""" 0-add_integer Module """
+""" The 0-add_integer Module """
 
 
 def add_integer(a, b=98):
     """
-    Adds two integers
+    Two integers are added
 
     Args:
-        a: first integer
-        b: second integer
+        a: the first integer
+        b: the second integer
 
     Returns:
-        addition of two integers
+        the sum of addition for the integers
     """
     if type(a) is not int and type(a) is not float:
         raise TypeError("a must be an integer")

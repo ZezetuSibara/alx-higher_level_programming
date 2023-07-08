@@ -13,11 +13,11 @@ Importing the ``print_square`` function from the module
 
     >>> print_square = __import__('4-print_square').print_square
 
-Begin Tests.
+Start Tests.
 
 ::
 
-Test if size is an integer:
+See if size is an integer:
 
     >>> print_square("Hi")
     Traceback (most recent call last):
@@ -31,7 +31,7 @@ Test if size is an integer:
 
 ::
 
-Test if size is a positive integer:
+Check if size is a positive integer:
 
     >>> print_square(-2)
     Traceback (most recent call last):
@@ -45,7 +45,7 @@ Test if size is a positive integer:
 
 ::
 
-Test if the function works normally:
+See if the function works normally:
 
     >>> print_square(4)
     ####
@@ -58,19 +58,19 @@ Test if the function works normally:
 
 ::
 
-checking for module docstring
+looking for module docstring
 ::
         >>> Mdocs = __import__("4-print_square").__doc__
         >>> len(Mdocs) > 5
         True
 
-checking function docstring for module
+looking function docstring for module
 ::
         >>> Fdocs = print_square.__doc__
         >>> len(Fdocs) > 5
         True
 
-checking if a positive size is passed as a parameter
+looking if a positive size is passed as a parameter
 ::
         >>> print_square(1)
         #
@@ -81,18 +81,18 @@ checking if a positive size is passed as a parameter
         #####
         #####
 
-checking when size passed is zero
+testing when size passed is zero
 ::
         >>> print_square(0)
 
-checking when size passed is negative:
+testing when size passed is negative:
 ::
         >>> print_square(-3)
         Traceback (most recent call last):
         ...
         ValueError: size must be >= 0
 
-checking when wrong type is passed
+testing when wrong type is passed
 ::
         >>> print_square(3.4)
         Traceback (most recent call last):
@@ -119,13 +119,13 @@ checking when wrong type is passed
         ...
         TypeError: size must be an integer
 
-checking when more than required argument is provided
+testing when more than required argument is provided
 ::
         >>> print_square(3, 4)
         Traceback (most recent call last):
         TypeError: print_square() takes 1 positional argument but 2 were given
 
-check when no argument is provided
+see when no argument is provided
 ::
         >>> print_square()
         Traceback (most recent call last):

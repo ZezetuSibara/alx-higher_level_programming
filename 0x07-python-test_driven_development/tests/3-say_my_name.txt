@@ -13,11 +13,11 @@ Importing the ``say_my_name`` function.
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
 
-Begin tests.
+Start tests.
 
 ::
 
-Test if first name is a string:
+Check if first name is a string:
 
     >>> say_my_name(10, "tom")
     Traceback (most recent call last):
@@ -26,7 +26,7 @@ Test if first name is a string:
 
 ::
 
-Test if last name is a string:
+Check if last name is a string:
 
     >>> say_my_name("ade", (0, 0))
     Traceback (most recent call last):
@@ -35,7 +35,7 @@ Test if last name is a string:
 
 ::
 
-Test if function displays the strings well in the message:
+Check if function displays the strings well in the message:
 
     >>> say_my_name("John", "Smith")
     My name is John Smith
@@ -48,45 +48,45 @@ Test if function displays the strings well in the message:
 
 ::
 
-checking for module docstring
+looking for module docstring
 ::
         >>> Mdocs = __import__("3-say_my_name").__doc__
         >>> len(Mdocs) > 5
         True
 
-checking function docstring for module
+testing function docstring for module
 ::
         >>> Fdocs = say_my_name.__doc__
         >>> len(Fdocs) > 5
         True
 
-checking regular functionality when firstname and lastname are passed
+testing regular functionality when firstname and lastname are passed
 ::
         >>> say_my_name("Valentine", "Maduagwu")
         My name is Valentine Maduagwu
         >>> say_my_name('V', 'M')
         My name is V M
 
-checking when only firstname is passed
+seeing when only firstname is passed
 ::
         >>> say_my_name("Valentine")
         My name is Valentine 
         >>> say_my_name("Alex")
         My name is Alex 
 
-checking when only lastname is passed
+seeing when only lastname is passed
 ::
         >>> say_my_name(last_name="Maduagwu")
         Traceback (most recent call last):
         TypeError: say_my_name() missing 1 required positional argument: 'first_name'
 
-checking when no argument is provided
+Testing when no argument is provided
 ::
         >>> say_my_name()
         Traceback (most recent call last):
         TypeError: say_my_name() missing 1 required positional argument: 'first_name'
 
-checking when wrong type is provided for first_name
+Testing when wrong type is provided for first_name
 ::
         >>> say_my_name(13)
         Traceback (most recent call last):
@@ -101,7 +101,7 @@ checking when wrong type is provided for first_name
         Traceback (most recent call last):
         TypeError: first_name must be a string
 
-checking when wrong type is provided for last_name
+seeing when wrong type is provided for last_name
 ::
         >>> say_my_name("Valentine", 23)
         Traceback (most recent call last):
@@ -116,7 +116,7 @@ checking when wrong type is provided for last_name
         Traceback (most recent call last):
         TypeError: last_name must be a string
 
-checking when None is passed
+seeing when None is passed
 ::
         >>> say_my_name("Valentine", None)
         Traceback (most recent call last):

@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-    3-say_my_name Module
+   The 3-say_my_name Module
 """
 
 
 def say_my_name(first_name, last_name=""):
     """
-        Prints My name is <first_name> <last_name>
+        My name is <first_name> <last_name> line is printed
 
         Args:
-            first_name: first string
-            last_name: second string
+            first_name: the first string
+            last_name: the second string
     """
     if type(first_name) is not str:
         raise TypeError("first_name must be a string")
