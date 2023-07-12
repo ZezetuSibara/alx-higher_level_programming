@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-Module for append_after method.
+The actual Module for append_after method.
 """
 
 
 def append_after(filename="", search_string="", new_string=""):
-    '''Method for inserting text after search string.'''
+    '''A method for testing text after search string.'''
     lines = []
     with open(filename, "r", encoding="utf-8") as f:
         lines = f.readlines()

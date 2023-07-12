@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""The write_file function container"""
+"""This contains a write_file function """
 
 
 def write_file(filename="", text=""):
-    """write_file writes a string to a text file.
+    """Astring will be written by write_file into a text file.
         Args:
-            filename (str): name of file.
-            text (str): text to be written.
-            Return: the number of characters written
+            filename (str): the name of file.
+            text (str): the text to be written.
+            Return: the number of characters written are returned
     """
     with open(filename, "w", encoding="utf-8") as file:
         files = file.write(text)

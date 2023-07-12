@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-The "class_to_json" function container
+This contains a "class_to_json" function
 """
 
 
 def class_to_json(obj):
-    """returns the dictionary description with simple data structure
+    """the dictionary description with simple data structure
     (list, dictionary, string, integer and boolean)
-    for JSON serialization of an object"""
+    for JSON serialization of an object is returned"""
     return obj.__dict__

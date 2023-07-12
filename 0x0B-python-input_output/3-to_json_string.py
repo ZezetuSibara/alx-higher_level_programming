@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-The "to_json_string" function condition
+This is a condition for the  "to_json_string" function
 """
 
 import json
 
 
 def to_json_string(my_obj):
-    """returns the JSON representation of an object (string)"""
+    """The JSON representation of an object (string) is returned"""
     return json.dumps(my_obj)

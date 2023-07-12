@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 """
-Module for pascal_triangle method.
+An actual Module for pascal_triangle method.
 """
 
 
 def pascal_triangle(n):
     """
-    returns a list of lists of integers
+    a list of lists of integers is returned
         Args:
-            n (int): number of lists and digits
-        Returns: list of lists
+            n (int): the actual number of lists and digits
+        Returns: list of lists are returned
 
     """
     rows = [[1 for j in range(i + 1)] for i in range(n)]
