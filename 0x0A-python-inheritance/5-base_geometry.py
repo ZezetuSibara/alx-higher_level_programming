@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-This is a module container of the function 5-base_geometry.py
+This module contains the function 5-base_geometry.py
 """
 
 
 class BaseGeometry:
     """
-    Base Geometry class
+    This is a Base Geometry class
     (an empty class)
     """
     pass

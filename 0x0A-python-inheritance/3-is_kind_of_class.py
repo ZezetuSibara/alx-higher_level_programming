@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-This is a module container of the function 3-is_kind_of_class.py
+""" This module contains the function 3-is_kind_of_class.py
 """
 
 
 def is_kind_of_class(obj, a_class):
     """
-    checks if the object is an instance of a specified class
+    Looks if the object is an instance
         Args:
-            obj: initial object
-            a_class: class to confirm the object
-            Returns: True if object is an instance of or inherited the class
+            obj: the initial object
+            a_class: thte class to confirm the object
+            Returns: True if object is an instance of class
                      or False if not
     """
     return isinstance(obj, a_class)

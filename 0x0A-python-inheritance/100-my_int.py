@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-Contains definition of class MyInt
+The definition of class MyInt is contained
 """
 
 
 class MyInt(int):
-    """Definition of class MyInt that inherits from class int"""
+    """The definition of class MyInt that inherits"""
 
     def __eq__(self, other):
-        """Overrides equals, inverting it"""
+        """Equals will be overridden, while inverting it"""
         return int(self) != int(other)
 
     def __ne__(self, other):
-        """Overrides not-equals, inverting it"""
+        """Not-equals will be overridden, while inverting it"""
         return int(self) == int(other)
