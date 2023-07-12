@@ -1,4 +1,5 @@
-s is a module container of the function 3-is_kind_of_class.py
+#!/usr/bin/python3
+This is a module container of the function 3-is_kind_of_class.py
 """
 
 
