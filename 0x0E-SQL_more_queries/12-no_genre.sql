@@ -1,6 +1,6 @@
--- This script lists all shows contained in hbtn_0d_tvshows without a genre linked.
+-- The script will list all shows contained in hbtn_0d_tvshows without a genre linked.
 
--- Get the data using left join, where the right key is NULL
+-- left join is used to get the data, where the right key is NULL
 SELECT tv_shows.title, tv_show_genres.genre_id
 FROM tv_shows
 LEFT JOIN tv_show_genres

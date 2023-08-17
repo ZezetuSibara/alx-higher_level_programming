@@ -1,6 +1,6 @@
--- This script creates the table unique_id on your MySQL server.
+-- The script will create the table unique_id on the MySQL server.
 
--- creating table unique id
+-- table unique id is created
 CREATE TABLE IF NOT EXISTS unique_id (
     id INT UNIQUE DEFAULT 1,
     name VARCHAR(256)

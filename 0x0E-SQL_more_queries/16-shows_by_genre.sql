@@ -1,7 +1,7 @@
--- This script lists all shows, and all genres linked to
+-- The script will list all shows, and all genres linked to
 -- that show, from the database hbtn_0d_tvshows.
 
--- using join to dsplay data and order based on title and name
+-- Join is used to dsplay data and order based on title and name
 SELECT tv_shows.title, tv_genres.name
 FROM tv_shows
 LEFT JOIN tv_show_genres

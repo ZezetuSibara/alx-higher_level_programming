@@ -1,6 +1,6 @@
--- This script lists all shows contained in the database hbtn_0d_tvshows.
+-- The script will list all shows contained in the database hbtn_0d_tvshows.
 
--- using join to dsplay data and order based on title and genre id
+-- join is used to dsplay data and order based on title and genre id
 SELECT tv_shows.title, tv_show_genres.genre_id
 FROM tv_shows
 LEFT JOIN tv_show_genres

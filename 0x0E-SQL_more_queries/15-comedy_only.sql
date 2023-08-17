@@ -1,6 +1,6 @@
--- This script lists all Comedy shows in the database hbtn_0d_tvshows.
+-- The script lists all Comedy shows in the database hbtn_0d_tvshows.
 
--- Use of inner join, to join more than 2 tables
+-- Inner join is used to join more than 2 tables
 SELECT tv_shows.title
 FROM tv_shows
 JOIN tv_show_genres

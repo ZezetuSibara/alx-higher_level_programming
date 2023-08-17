@@ -1,6 +1,6 @@
--- This script lists all genres in the database hbtn_0d_tvshows_rate by their rating.
+-- The script will list all genres in the database hbtn_0d_tvshows_rate by their rating.
 
--- using two join to get expected output
+-- two join are used to get expected output
 SELECT tv_genres.name, SUM(tv_show_ratings.rate) AS rating
 FROM tv_genres
 JOIN tv_show_genres

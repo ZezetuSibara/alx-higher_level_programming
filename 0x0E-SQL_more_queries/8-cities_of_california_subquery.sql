@@ -1,7 +1,7 @@
--- This script lists all the cities of California
+-- The script will list all the cities of California
 -- that can be found in the database hbtn_0d_usa.
 
--- using subqueries and comparison op '=' to get data
+-- use subqueries and comparison op '=' to get data
 SELECT cities.id, cities.name
 FROM cities
 WHERE state_id = (
